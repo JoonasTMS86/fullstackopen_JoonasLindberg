@@ -1,9 +1,9 @@
-Joonas tests Mermaid syntax flow chart.
+Here is a simple flow chart:
 
 ```mermaid
-graph JL;
-    Start-->Point A;
-    Start-->Point B;
-    Point A-->End;
-    Point B-->End;
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
