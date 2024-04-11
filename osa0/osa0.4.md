@@ -2,8 +2,8 @@ Joonas tests Mermaid syntax flow charts:
 
 ```mermaid
 graph TD;
-    Start-->"Point A";
+    Start-->PointA;
     Start-->C;
-    "Point A"-->End;
+    PointA-->End;
     C-->End;
 ```
