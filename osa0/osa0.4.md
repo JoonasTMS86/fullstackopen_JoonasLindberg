@@ -1,4 +1,4 @@
-Here is a simple flow chart:
+Joonas tests Mermaid syntax flow charts:
 
 ```mermaid
 graph TD;
