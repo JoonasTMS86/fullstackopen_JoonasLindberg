@@ -3,7 +3,7 @@ sequenceDiagram
     participant browser
     participant server
     
-    browser->>server: POST studies.cs.helsinki.fi/exampleapp/new_note
+    browser->>server: POST-pyyntö osoitteeseen studies.cs.helsinki.fi/exampleapp/new_note
     activate server
     server-->>browser: HTTP-statuskoodi 302 eli redirectaus
     deactivate server
