@@ -1,7 +1,12 @@
 ```mermaid
 sequenceDiagram
-    Joonas 1->>+Joonas 2: Hello, world.
-    Joonas 1->>+Joonas 2: Testing flow charts.
-    Joonas 2-->>-Joonas 1: Now I'm going back.
-    Joonas 2-->>-Joonas 1: Left direction.
+    participant browser
+    participant server
+    
+    browser->>server: POST studies.cs.helsinki.fi/exampleapp/new_note
+    activate server
+    server-->>browser: HTTP-statuskoodi 302 eli redirectaus
+    deactivate server
+    
+    Note right of browser: serveri vastaanottaa muistiinpanon, lisää sen taulukkoon notes ja uudelleenohjaa osoitteeseen notes
 ```
