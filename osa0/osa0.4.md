@@ -9,4 +9,9 @@ sequenceDiagram
     deactivate server
     
     Note right of browser: serveri vastaanottaa muistiinpanon, lisää sen taulukkoon notes ja uudelleenohjaa osoitteeseen notes
+
+    browser->>server: GET-pyynnöt HTML-, CSS-, JavaScript- ja JSON-tiedostoille
+    activate server
+    server-->>browser: notes-osoitteen HTML-, CSS-, JavaScript- ja JSON-tiedostot
+    deactivate server
 ```
