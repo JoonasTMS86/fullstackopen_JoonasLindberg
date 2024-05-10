@@ -1,0 +1,54 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": "1"
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": "2"
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": "3"
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": "4"
+    },
+    {
+      "id": "bcfb",
+      "name": "Joonas Lindberg",
+      "number": "040-8492994"
+    },
+    {
+      "id": "b993",
+      "name": "Some Guy",
+      "number": "349875"
+    },
+    {
+      "id": "599a",
+      "name": "Test Test",
+      "number": "43534534"
+    },
+    {
+      "id": "5b9e",
+      "name": "UUU UUU",
+      "number": "43534543"
+    },
+    {
+      "id": "31ce",
+      "name": "VVV VVV",
+      "number": "34545345"
+    },
+    {
+      "id": "2647",
+      "name": "Guy Guy",
+      "number": "34543454"
+    }
+  ]
+}
